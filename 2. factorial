@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+	int n,fact=1,i;
+	printf("A.Harshavardhan K.R\n");
+	printf("192210042\n");
+	printf("enter the value: ");
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++)
+	{
+		fact = fact*i;
+	}
+	printf("%d",fact,n);
+	return 0;
+}
